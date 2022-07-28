@@ -3,3 +3,6 @@
 
 # import the qrcode module
 import qrcode
+
+qrcodeimg = qrcode.make(input("Enter the URL need to be converted to QR Code: "))
+qrcodeimg.save("qrcode.png")
